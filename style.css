@@ -1,0 +1,223 @@
+/*generics*/
+body {
+    background-color : #EAAA00;
+    height : auto;
+    width : auto;
+    margin-bottom : 5%;
+}
+.subheader {
+    font-size: 300%;
+    color : #000000;
+    text-align: center;
+}
+
+/*home page*/
+#title {
+    color : #000000;
+    font-size : 600%;
+    text-align : center;
+}
+
+#homeLeft {
+    float : left;
+    width : 50%;
+    text-align: center;
+}
+#imageHomeHolder {
+    text-align: center;
+    display: inline-block;
+}
+#homeImage {
+    height : 40%;
+    width : 40%;
+}
+#disclaimer {
+    word-wrap: break-word;
+    width : 75%;
+    color : white;
+    background-color: black;
+    text-align: center;
+    font-size: 150%;
+    display: inline-block;
+}
+#aboutButton {
+    border : none;
+    background : none;
+    padding : 0;
+    font-size : 250%;
+    width : 40%;
+    height : 10%;
+    text-align : center;
+    color : #000000;
+    display : inline-block;
+}
+#aboutButton:hover {
+    background-color : red;
+    display: inline-block;
+}
+#creditsButton {
+    border : none;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-left-width : 0;
+    border-right-width : 0;
+    background : none;
+    padding : 0;
+    font-size : 250%;
+    width : 40%;
+    height : 10%;
+    text-align : center;
+    color : #000000;
+    display : inline-block;
+}
+#creditsButton:hover {
+    background-color : red;
+    display: inline-block;
+}
+
+#homeRight {
+    float : left;
+    width : 50%;
+    text-align: center;
+}
+#rulesHolder {
+    display: inline-block;
+}
+#startButtonHolder {
+    display : inline-block;
+}
+#startButton {
+    background-color: red;
+    font-size: 250%;
+    width : 100%;
+    height : 100%;
+    text-align: center;
+    color : #000000;
+    border : none;
+    padding : 0;
+}
+#rules {
+    font-size: 150%;
+    color : white;
+    background-color: black;
+    width : 50%;
+    display: inline-block;
+}
+
+/******************************************ABOUT PAGE*/
+#aboutPage {
+    text-align : center;
+    color : black;
+}
+#termsconditionstext, #abouttext {
+    font-size : 150%;
+    color : black;
+    margin-left : 10%;
+    margin-right : 10%;
+}
+/******************************************RESOURCES PAGE */
+#gamesresourcesPage {
+    text-align: center;
+    color : black;
+    display : flex;
+    flex-direction: column;
+}
+#resource1, #resource2, #resource3 {
+    margin-top : 5%;
+    display: inline-block;
+}
+.resourceTitle {
+    margin-left: 5%;
+    margin-right : 5%;
+    text-align: left;
+    font-size: 200%;
+}
+.resourceText {
+    margin-left : 5%;
+    margin-right : 5%;
+    text-align : left;
+    font-size : 150%;
+}
+footer {
+    color : black;
+}
+
+/*****************************************QUESTION PAGES */
+#quizHolder {
+    padding-top: 1%;
+    padding-left : 10%;
+    padding-bottom: 1%;
+}
+#continueButtonHolder {
+    padding-left: 10%;
+}
+
+.quizButton {
+  font-size : 1.5vw;
+}
+/* small instructions about questions */
+#questionNote {
+    background-color : black;
+    width : 50%;
+    position : absolute;
+    left : 25%;
+}
+#questionNoteText {
+    font-size : 150%;
+    text-align : left;
+    color : black;
+    padding-left : 10%;
+}
+#pagecontainertext {
+    text-align: center;
+    color : black;
+}
+.question, .answerChoices {
+    color : black;
+}
+.question {
+    font-size: 2.5vw;
+}
+.answerChoices {
+    margin-bottom : 3%;
+    font-size : 2vw%;
+}
+
+/*RESULTS*/
+.result {
+    color : black;
+    text-align : center;
+}
+.mainResult {
+    font-weight : bold;
+}
+
+/*CREDITS*/
+#creditsPage {
+    color : black;
+}
+#people {
+    color : black;
+    font-size: 200%;
+    text-align : center;
+    margin-top : 5%;
+}
+.person {
+    float : left;
+    width : 20%;
+}
+.person:hover {
+    background-color : white;
+}
+.personName {
+    text-align : center;
+    font-size: 100%;
+}
+.personDetails {
+    font-size : 50%;
+}
+#gameHistory {
+    margin-top : 15%;
+    text-align : center;
+    font-size : 150%;
+}

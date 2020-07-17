@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Mental Wealth</title>
+
+        <!-- for database -->
+        <link rel="shortcut icon" href="">
+
+        <!-- css style sheet -->
+        <link rel="stylesheet" href = "style.css">
+
+        </style>
+    </head>
+    <body>
+        <section id = "buttonHolder">
+            <!-- buttons -->
+            <button id = "games">Quick Resources</button>
+            <button id = "home">Return Home</button>
+            <button id = "resultsTest">RESULTS TEMP</button>
+          </button>
+        </section>
+
+        <h1 id= "title">
+            <i>Mental Wealth Quiz</i>
+        </h1>
+        <section id = 'homePage'>
+
+            <div id='homeLeft'>
+                <div id= 'imageHomeHolder'>
+                    <img src="./src/functionality/imageHome.png" alt="img" id='homeImage'></img>
+                </div>
+
+                <div id = "disclaimerHolder">
+                    <p id = 'disclaimer'> <b>Disclaimer:</b> <br> This quiz
+                        is for entertainment purposes only and the information provided will be used
+                        for public health research. If you select to take the “Mental Wealth Quiz”
+                        you agree to all terms and conditions of this game.</p>
+                </div>
+
+                <div id = 'aboutButtonHolder'>
+                    <button id = "aboutButton">About the project</button>
+                </div>
+                <div id = 'creditsButtonHolder'>
+                    <button id = "creditsButton">Credits</button>
+                </div>
+            </div>
+
+            <div id="homeRight">
+                <div id = "rulesHolder">
+                    <p id ='rules'>
+                        <b>GAME RULES:</b> What is your mental
+                        wealth?  Want to get some
+                        insight on your mental health status then take the Mental Wealth
+                        Quiz. This quiz will give you a list of mental health areas you may
+                        need improvement in, as well as, a suggested list of mental health
+                        games, applications (apps), or resources to assist you on your
+                        journey.  In order to gain true insight, we ask that you answer the
+                        questions as honestly as possible.
+                    </p>
+                </div>
+                <div id = 'startButtonHolder'>
+                    <button id = "startButton">Begin Game</button>
+                </div>
+            </div>
+        </section>
+
+        <section id = 'aboutPage'>
+            <div class="subheader" id = 'aboutSubheader'>
+                About
+            </div>
+            <div class="text" id='abouttext'>
+                <p><b>Game Background:</b> Mental health is
+                essential to a person’s well-being, healthy family and interpersonal
+                relationships, and the ability to live a full and productive life. People,
+                including children and adolescents, with untreated mental health disorders
+                are at high risk for many unhealthy and unsafe behaviors, including
+                self-destructive behavior, and suicide. According to the World Health
+                Organization (WHO), one in four people will experience a mental or
+                neurological disorder at some point in their lives (WHO, 2001).  This
+                means that everyone in the world is potentially one trauma away from
+                experiencing a mental health disorder.
+                The Coronavirus or COVID-19 has been devastating to countries around the world
+                by causing illness, deaths, economic hardships, and social isolation. Two
+                students from Emory’s Rollins School of Public Health and three students
+                from Georgia Institute of Technology have come together to create the
+                Student Advocates of Mental Illness (SAMI).  The SAMI organizers have
+                created a Facebook game named “Mental Wealth Quiz” to allow adult gamers
+                ages 18 years or older to assess their mental health needs and provide them
+                with a list of mental wellness games and resources to assist them on their
+                mental health journey.
+                </p>
+            </div>
+            <div class="text" id='termsconditionstext'>
+                <p><b>Terms
+                and Conditions:</b>  This quiz was created by the Student Advocates of Mental
+                Illness (SAMI) team as part of the EGHI/GT HACK COVID-19 competition.
+                The purpose of this “Hackathon” was to provide a public health solution
+                to a COVID-19 related public health issue.  Thus the purpose of this game
+                is to provide a solution to the access of mental health resources not only
+                during a time of massive illnesses, deaths, economic hardship, and social
+                isolation but for the foreseeable future as well.
+                This Facebook game uses select questions from an American Psychiatric Association
+                (APA) assessment tool known as the DSM-5.  This quiz does not provide a
+                complete assessment of your mental health and is not being reviewed by mental
+                health professionals.  The game was created solely on the review of research
+                journals and news articles and will be used for public health research purposes.
+                The information provided via the quiz is for entertainment purposes only and
+                should be viewed as such.  If you feel you have a mental health disorder or
+                would like to know more about your mental health, please contact your health
+                provider for additional resources.<br> <b>If you feel you are in a mental health
+                crisis and need immediate assistance, please call 911.</b>
+                <br><br> Changes can be made to this quiz at any time and without notice.
+                All information provided could be placed in a database and sent to state
+                or federal officials in support for the creation of mental health resources
+                and facilities within the state you provided in the Facebook game.</p>
+            </div>
+        </section>
+
+        <section id = 'quizPage'>
+            <div id='subheaderHolder'></div>
+            <div id='questionNoteHolder'></div>
+            <div id='quizHolder'></div>
+            <div id ='continueButtonHolder'>
+                <button id='continueButton' class="quizButton">Continue</button>
+                <button id = "diagnosis" class="quizButton">See My Results</button>
+              <button id = "backButton" class="quizButton"> Back </button>
+              </button>
+            </div>
+            <div id='pageCounterHolder'></div>
+        </section>
+
+        <section id = 'resultsPage'>
+            <div class="subheader">
+                Your Results
+            </div>
+            <div class="result" id="2">
+                <div class="mainResult">
+                    You are showing signs of suicide!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                            <a href="http://www.crisistextline.org/">Crisis Text Line</a>
+                            National Suicide Prevention Lifeline Crisis Text Line: Text START to 741741 from anywhere in the USA, at any time, about any type of crisis
+                        </li>
+                        <li>
+                            <a href=" http://suicidepreventionlifeline.org">Suicide Prevention Lifeline</a>
+                            1-800-273-8255
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='3'>
+                <div class="mainResult">
+                    You are showing signs of psycosis!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                            <a href="https://www.notokapp.com/about">NotOK App</a>
+                            The app features a large, red button that can be activated to let close friends, family and their support network know help is needed. Users can add up to five trusted contacts as part of their support group so when they hit the digital panic button, a message along with their current GPS location is sent to their contacts. The message reads: “Hey, I’m not OK! Please call, text, or come find me.”
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='4'>
+                <div class="mainResult">
+                    You are showing signs of depression!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                          <a href="https://www.happify.com/">Happify</a>
+                          Need a happy fix? With its psychologist-approved mood-training program, the Happify app is your fast-track to a good mood. Try various engaging games, activity suggestions, gratitude prompts and more to train your brain as if it were a muscle, to overcome negative thoughts. The best part? Its free!</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="result" id='5'>
+                <div class="mainResult">
+                    You are showing signs of anger!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                          <a href="https://www.happify.com/">Happify</a>
+                          Need a happy fix? With its psychologist-approved mood-training program, the Happify app is your fast-track to a good mood. Try various engaging games, activity suggestions, gratitude prompts and more to train your brain as if it were a muscle, to overcome negative thoughts. The best part? Its free!</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="result" id='6'>
+                <div class="mainResult">
+                    You are showing signs of mania!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                          <a href="https://www.psyberguide.org/apps/breathe2relax/">Psyerguid</a>
+                          Breathe2Relax is a deep breathing guide that can come in handy in times of stress or upset. Diaphragmatic breathing helps with moodiness and stress by calming the HPA axis, which is also responsible for the fight-or-flight response.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='7'>
+                <div class="mainResult">
+                    You are showing signs of anxiety!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                          <a href="https://www.anxietycanada.com/resources/mindshift-cbt/">AnxietyCandada</a>
+                          Is anxiety getting in the way of your life? MindShift™ CBT uses scientifically proven strategies based on Cognitive Behavioural Therapy (CBT) to help you learn to relax and be mindful, develop more effective ways of thinking, and use active steps to take charge of your anxiety.
+                        </li>
+                        <li>
+                          <a href-"#">DEEP VR Game</a>
+                          “DEEP is a meditative and psychoactive VR game that is controlled by breathing. Players don the Oculus Rift and the custom DEEP controller to explore a beautiful and mysterious undersea world. Allow the game to sweep you into its relaxing embrace as it teaches you yogic breathing techniques that can relieve stress, anxiety and mild depression. Take a DEEP breath and soar beneath the waves to meet ancient gods and strange lifeforms.”
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='8'>
+                <div class="mainResult">
+                    You are showing signs of repetitive thoughts!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=edu.ucsf.drive.prime.android&hl=en_US">UCSF Prime</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='9'>
+                <div class="mainResult">
+                    You are showing signs of substance abuse!
+                </div>
+                <div class="gameLinks">
+                    Here are some resources to help manage your mental health: <br>
+                    <ul>
+                        <li>
+                            <a href="https://apps.apple.com/us/app/quit-that-habit-tracker/id909400800">Quit That Habit</a>
+                            Quit That! is a completely free app that helps users beat their habits or addictions. Whether you’re looking to stop drinking alcohol, quit smoking, or stop taking drugs, it’s the perfect recovery tool to track and monitor your progress. Track as many vices as you want and find out how many minutes, hours, days, weeks, or years it’s been since you quit.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="result" id='10'>
+                <div class="mainResult">
+                    You seem healthy!
+                </div>
+            </div>
+        </section>
+
+        <section id='gamesresourcesPage'>
+            <div class="subheader">
+                Resources
+            </div>
+            <div id='resource1'>
+                <div class="resourceTitle">
+                     Need Immediate Help in an Emergency
+                </div>
+                <div class="resourceText">
+                    If you or a loved one is in immediate danger
+                    <a href="http://www.nami.org/Find-Support/Family-Members-and-Caregivers/Calling-911-and-Talking-with-Police">
+                        calling 911 and talking with police
+                    </a>
+                    may be
+                    necessary. It is important to notify the operator
+                    that it is a psychiatric emergency and ask for
+                    police officers trained in
+                    <a href="http://www.nami.org/Learn-More/Treatment/Getting-Treatment-During-a-Crisis">
+                        crisis intervention
+                    </a>
+                    or trained to assist people experiencing a
+                    psychiatric emergency.
+                </div>
+            </div>
+            <div id="resource2">
+                <div class="resourceTitle">
+                    Need Immediate Help in a Crisis
+                </div>
+                <div class="resourceText">
+                    <a href="http://www.suicidepreventionlifeline.org/">
+                        National Suicide Prevention Lifeline
+                    </a>
+                    – Call 800-273-TALK (8255) to speak with a trained crisis
+                    counselor 24/7. The
+                    <a href="http://www.suicidepreventionlifeline.org/">
+                        National Suicide Prevention Lifeline
+                    </a>
+                    connects you with a crisis center in the Lifeline network
+                    closest to your location. Your call is confidential and free.
+                    <br><br>
+                    <a href="http://www.crisistextline.org/">
+                        Crisis Text Line
+                    </a>
+                    – Text NAMI to 741-741 Connect with a trained crisis
+                    counselor to receive free, 24/7 crisis support via text message.
+                    <br><br>
+                    <a href="http://www.thehotline.org/">
+                        National Domestic Violence Hotline
+                    </a>
+                    – Call 800-799-SAFE (7233)   Trained expert advocates are
+                    available 24/7 to provide confidential support to anyone
+                    experiencing domestic violence or seeking resources and
+                    information. Help is available in Spanish and other languages.
+                    <br><br>
+                    <a href="https://www.rainn.org/about-national-sexual-assault-telephone-hotline">
+                        National Sexual Assault Hotline
+                    </a>
+                    – Call 800-656-HOPE (4673)  Connect with a trained staff
+                    member from a sexual assault service provider in your area
+                    that offers access to a range of free services. Crisis chat
+                    support is available at
+                    <a href="https://hotline.rainn.org/online/terms-of-service.jsp">
+                        Online Hotline
+                    </a>
+                    Free help, 24/7
+                </div>
+            </div>
+            <div id="resource3">
+                <div class="resourceTitle">
+                    Find FaceBook Groups and Friends!
+                </div>
+                <div class="resourceText">
+                    <ul>
+                        <li>
+                            Main Account: <a href="https://www.facebook.com/AmericanPsychiatricAssociation/">
+                                American Psychiatric Association
+                            </a>
+                        </li>
+                        <li>
+                            Healthy Minds: <a href="https://www.facebook.com/APAHealthyMinds/">
+                                APA Healthy Minds
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer>
+                American Psychiatric Association, DSM-5 document was used in creating the quiz
+                <br>
+                Retrieved from:
+                <a href="https://www.nami.org/help">https://www.nami.org/help
+                </a>
+            </footer>
+        </section>
+
+        <section id='creditsPage'>
+            <div class="subheader">
+                Credits
+            </div>
+            <div id="people">
+                <div class="person">
+                    <img src="#" alt="no image">
+                    <div class="personName">
+                        Benjamin Ahn
+                    </div>
+                    <div class="personDetails">
+                        Programmer <br>
+                        Biological Sciences <br>
+                        Georgia Tech
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="#" alt="no image">
+                    <div class="personName">
+                        Ian Binek
+                    </div>
+                    <div class="personDetails">
+                        Marketing <br>
+                        Business Administration <br>
+                        Georgia Tech
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="#" alt="no image">
+                    <div class="personName">
+                        Melody Shellman
+                    </div>
+                    <div class="personDetails">
+                        Programmer <br>
+                        Industrial Engineering <br>
+                        Georgia Tech
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="#" alt="no image">
+                    <div class="personName">
+                        Leona Wells
+                    </div>
+                    <div class="personDetails">
+                        BLANK <br>
+                        Public Health <br>
+                        Emory University
+                    </div>
+                </div>
+                <div class="person">
+                    <img src="#" alt="no image">
+                    <div class="personName">
+                        Bridget
+                    </div>
+                    <div class="personDetails">
+                        BLANK <br>
+                        Public Health <br>
+                        Emory University
+                    </div>
+                </div>
+            </div>
+            <div id="gameHistory">
+                <div>
+                    Game created May 2020 <br>
+                    COVID-19 Hackathon
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- # Update 1 - Reorder the firebase script imports (I accidentally put them out of order) Should be: -->
+        <!-- # index.html file -->
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+        <!-- # the init needs to be last! -->
+        <script src="./src/firebase_scripts/init-firebase.js"></script>
+
+        <!-- use Facebook Instant Game SDK -->
+        <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
+
+        <!-- implement firebase -->
+        <script src = './src/functionality/facebookCore.js'></script>
+        <script src = './src/firebase_scripts/firebase_addon.js'></script>
+
+        <!-- implement game functionality -->
+        <script src = './src/functionality/main.js'></script>
+        <script src = './src/functionality/homePage.js'></script>
+        <script src = './src/functionality/aboutPage.js'></script>
+        <script src = './src/functionality/questions.js'></script>
+        <script src = './src/functionality/questionsPage.js'></script>
+        <script src = './src/functionality/scoring.js'></script>
+        <script src = './src/functionality/resultsPage.js'></script>
+        <script src = './src/functionality/gamesresourcesPage.js'></script>
+        <script src = './src/functionality/creditPage.js'></script>
+        <script src = './openingBuild.js'></script>
+    </body>
+</html>
