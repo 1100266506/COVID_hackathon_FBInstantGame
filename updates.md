@@ -26,3 +26,14 @@ June 9, 2020
 - Resources page v1.0 completed
 - Facebook Instant Game test version
 - light front-end design updates
+
+July 19, 2020
+- adjusted wording for results
+- adjusted title header to make more space for questions
+- adjusted question, answer choice, and radio button sizes
+- improved back button functionality
+- even out # of questions on each page
+- added Null option for state demographic question
+- added css and spacing for Results page
+- results page has option to go to Additonal Resources page
+- styled buttons

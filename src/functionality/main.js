@@ -16,13 +16,13 @@ const creditsPageContainer = document.getElementById('creditsPage');
 const buttonContainer = document.getElementById('buttonHolder');
 const gamesButtonContainer = document.getElementById('games');
 gamesButtonContainer.onclick = function() {buildGamesResourcesPage()}
+const gamesButtonContainerResults = document.getElementById('gamesResult');
+gamesButtonContainerResults.onclick = function() {buildGamesResourcesPage()};
 
 
 const homeButtonContainer = document.getElementById('home');
 homeButtonContainer.onclick = function() {buildWelcomePage()};
 
-const resultsTestingButtonContainer = document.getElementById('resultsTest');
-resultsTestingButtonContainer.onclick = function() {buildResultsPage()};
 
 //indexes quiz pages
 questionPage = 0;

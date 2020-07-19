@@ -16,4 +16,7 @@ function buildWelcomePage() {
     const creditsButton = document.getElementById('creditsButton');
     creditsButton.onclick = function() {buildCreditsPage()};
 
+    addElmt(document.getElementById('title'));
+    removeElmt(document.getElementById('title2'));
+
 }

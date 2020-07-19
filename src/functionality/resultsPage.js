@@ -17,6 +17,9 @@ function buildResultsPage() {
     addElmt(homeButtonContainer);
     addElmt(gamesButtonContainer);
 
+    addElmt(document.getElementById('alwaysResult'));
+    removeElmt(gamesButtonContainer);
+
    //temp
   // addElmt(document.getElementById('2'));
   // addElmt(document.getElementById('3'));

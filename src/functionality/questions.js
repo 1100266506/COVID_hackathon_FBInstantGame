@@ -46,7 +46,7 @@ const myQuestions = [
     ],
     [//set One - suicidal ideation and pyschosis
         {
-            question: "Thoughts of actually hurting yourself?",
+            question: "...thoughts of actually hurting yourself?",
             db_name: "a-Self_Harm",
             answers: {
                 a: "Not at all",
@@ -56,7 +56,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Hearing things other people couldn't hear, such as voices even when no one was around?",
+            question: "...hearing things other people couldn't hear, such as voices even when no one was around?",
             db_name: "a-Hear_Voices",
             answers: {
                 a: "Not at all",
@@ -66,7 +66,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Feeling that someone could hear your thoughts, or that you could hear what another person was thinking?",
+            question: "...feeling that someone could hear your thoughts, or that you could hear what another person was thinking?",
             db_name: "a-Hear_Others_Thoughts",
             answers: {
                 a: "Not at all",
@@ -74,11 +74,9 @@ const myQuestions = [
                 c: "A few days",
                 d: "Several days",
             },
-        }
-    ],
-    [//set two - depression, anger, mania, anxiety
+        },
         {
-            question: "Little interest or pleasure in doing things?",
+            question: "...little interest or pleasure in doing things?",
             db_name: "b-Little_Interest",
             answers: {
                 a: "Not at all",
@@ -88,7 +86,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Feeling down, depressed, or hopeless?",
+            question: "...feeling down, depressed, or hopeless?",
             db_name: "b-Feeling_Down",
             answers: {
                 a: "Not at all",
@@ -96,9 +94,12 @@ const myQuestions = [
                 c: "A few days",
                 d: "Several days",
             },
-        },
+        }
+    ],
+    [//set two - depression, anger, mania, anxiety
+        
         {
-            question: "Feeling more irritated, grouchy, or angry than usual?",
+            question: "...feeling more irritated, grouchy, or angry than usual?",
             db_name: "b-Feeling_irritated",
             answers: {
                 a: "Not at all",
@@ -108,7 +109,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Sleeping less than usual, but still have a lot of energy?",
+            question: "...sleeping less than usual, but still have a lot of energy?",
             db_name: "b-Less_Sleep",
             answers: {
                 a: "Not at all",
@@ -118,7 +119,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Starting lots more projects than usual or doing more risky things than usual?",
+            question: "...starting lots more projects than usual or doing more risky things than usual?",
             db_name: "b-More_Projects",
             answers: {
                 a: "Not at all",
@@ -128,7 +129,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Feeling nervous, anxious, frightened, worried, or on edge?",
+            question: "...feeling nervous, anxious, frightened, worried, or on edge?",
             db_name: "b-Nervous",
             answers: {
                 a: "Not at all",
@@ -138,7 +139,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Feeling panic or being frightened?",
+            question: "...feeling panic or being frightened?",
             db_name: "b-Panic",
             answers: {
                 a: "Not at all",
@@ -148,7 +149,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Avoiding situations that make you anxious?",
+            question: "...avoiding situations that make you anxious?",
             db_name: "b-Avoiding_anxious_sit",
             answers: {
                 a: "Not at all",
@@ -160,7 +161,7 @@ const myQuestions = [
     ],
     [//set three - repetitive thoughts, substance use
         {
-            question: "Unpleasant thoughts, urges, or images that repeatedly enter your mind?",
+            question: "...unpleasant thoughts, urges, or images that repeatedly enter your mind?",
             db_name: "c-unpl_thoughts",
             answers: {
                 a: "Not at all",
@@ -170,7 +171,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Feeling driven to perform certain behaviors or mental acts over and over again?",
+            question: "...feeling driven to perform certain behaviors or mental acts over and over again?",
             db_name: "c-repeated_act",
             answers: {
                 a: "Not at all",
@@ -180,7 +181,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Drinking at least 4 drinks of any kind of alcohol in a single day?",
+            question: "...drinking at least 4 drinks of any kind of alcohol in a single day?",
             db_name: "c-drink_4+",
             answers: {
                 a: "Not at all",
@@ -190,7 +191,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?",
+            question: "...smoking any cigarettes, a cigar, or pipe, or using snuff or chewing tobacco?",
             db_name: "c-smoking",
             answers: {
                 a: "Not at all",
@@ -200,7 +201,7 @@ const myQuestions = [
             },
         },
         {
-            question: "Using any of the following medicines ON YOUR OWN, that is, without a doctor’s prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?",
+            question: "...using any of the following medicines ON YOUR OWN, that is, without a doctor’s prescription, in greater amounts or longer than prescribed [e.g., painkillers (like Vicodin), stimulants (like Ritalin or Adderall), sedatives or tranquilizers (like sleeping pills or Valium), or drugs like marijuana, cocaine or crack, club drugs (like ecstasy), hallucinogens (like LSD), heroin, inhalants or solvents (like glue), or methamphetamine (like speed)]?",
             db_name: "c-meds",
             answers: {
                 a: "Not at all",

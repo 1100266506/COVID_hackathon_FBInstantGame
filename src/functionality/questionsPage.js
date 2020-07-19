@@ -19,6 +19,7 @@ function createQuestion(questionArray, questionPage, questionNumber) {
             questionOutput.push(
                 `<div class = "question"> ${questionNumber + 1}: ${currentQuestion.question} </div>
                     <select id ='statedropdown'>
+                        <option value="-1">SELECT</option>
                         <option value="0">Alabama - AL</option>
                         <option value="1">Alaska - AK</option>
                         <option value="2">Arizona - AZ</option>
@@ -106,12 +107,12 @@ function createQuestion(questionArray, questionPage, questionNumber) {
     const questionNoteContainer = document.getElementById('questionNoteHolder');
     const pageCounterContainer = document.getElementById('pageCounterHolder');
     if (questionPage==0) {
-        subheaderContainer.innerHTML="<h2 class='subheader'>Demographic Questions</h2>"
+        subheaderContainer.innerHTML="<h2 class='subheader'>Demographic Questions</h2>";
     }
     else {
-        subheaderContainer.innerHTML="<h2 class='subheader'>Mental Health Questions </h2>"
+        //subheaderContainer.innerHTML="<h2 class='subheader'>Mental Health Questions </h2>"
         questionNoteContainer.innerHTML = "<p id ='questionNoteText'>During the past TWO (2) WEEKS,\
-         how often have you been bothered by the following problems?</p>";
+         how often have you been bothered by the following problems:</p>";
         pageCounterContainer.innerHTML = `<p id = "pagecontainertext">page ${questionPage} out of 3</p>`;
     }
 }
@@ -195,6 +196,10 @@ function buildFirstQuestions(myQuestions, questionPage) {
     addElmt(buttonContainer);
     addElmt(homeButtonContainer);
     addElmt(gamesButtonContainer);
+    addElmt(document.getElementById('subheaderHolder'));
+    addElmt(document.getElementById('title2'));
+    removeElmt(document.getElementById('title'));
+    removeElmt(document.getElementById('questionNoteHolder'));
 
     questionNumber = 0;
     questionPage = 0;
@@ -244,6 +249,8 @@ function buildNextQuestion(questionArray, userAnswerArray, questionNumber, quest
     addElmt(homeButtonContainer);
     addElmt(gamesButtonContainer);
     addElmt(pageCounterContainer);
+    addElmt(document.getElementById('questionNoteHolder'));
+    removeElmt(document.getElementById('subheaderHolder'));
 
     const continueButton = document.getElementById('continueButton');
     continueButton.onclick = function() {buildNextQuestion(myQuestions, userAnswerArray, questionNumber, questionPage)};
