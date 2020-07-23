@@ -204,11 +204,11 @@ footer {
 .answerChoices {
     margin-bottom : 3%;
     font-size : 2vw;
-    margin-left : 3%;
     margin-right : 3%;
 }
 .answerChoice {
     transform: scale(2);
+    margin-left : 3%;
 }
 #statedropdown {
     margin-bottom : 3%;
@@ -263,7 +263,7 @@ footer {
 }
 .mainResult {
     font-weight : bold;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
 .mainResultDetail {
     text-decoration: underline;
@@ -272,7 +272,7 @@ footer {
     text-align: left;
 }
 .gameLinks {
-    font-size: 1vw;
+    font-size: 1.75vw;
 }
 #resultsContent {
     margin-top : 10%;

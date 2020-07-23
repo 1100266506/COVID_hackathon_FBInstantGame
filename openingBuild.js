@@ -6,5 +6,4 @@
 //load welcomepage
 buildWelcomePage();
 
-
 //******************************************************************************FINISHING FACEBOOK CORE
