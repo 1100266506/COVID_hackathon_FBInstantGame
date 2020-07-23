@@ -5,7 +5,7 @@
 
 var config = {
     apiKey: "AIzaSyBZAtsPRqp_2HCienqjdnT4gVpxPMu7634",
-    authDomain: "projectId.firebaseapp.com",
+    authDomain: "mental-wealth-game.firebaseapp.com",
     databaseURL: "https://mental-wealth-game.firebaseio.com",
     // storageBucket: "storageBucket.appspot.com"
 };

@@ -4,27 +4,30 @@
 
 const playerID = "";
 
-FBInstant.initializeAsync()
-    .then(function() {
+var facebookPlayer = {
+    playerID: "",
+    playerName: ""
+};
+
+FBInstant.initializeAsync().then(function() {
 
     //load assets
-        var load_progress = 0;
+    var load_progress = 0;
 
-        for (var load_progress = 0; load_progress < 100; load_progress++) {
-          FBInstant.setLoadingProgress(load_progress);
-          load_progress+=3;
-        }
+    for (var load_progress = 0; load_progress < 100; load_progress++) {
+      FBInstant.setLoadingProgress(load_progress);
+      load_progress+=3;
+    }
 
-        if (load_progress >= 99) { //once the game is loaded...
-            console.log("loaded");
-            FBInstant.startGameAsync() //start the game
-                .then(function() {
-                    console.log("Game has started!");
+    if (load_progress >= 99) { //once the game is loaded...
+        console.log("loaded");
+        FBInstant.startGameAsync() //start the game
+            .then(function() {
+                console.log("Game has started!");
 
-                    //get player information
-                    var playerName = FBInstant.player.getName(); //name of account using game
-                    var playerId = FBInstant.player.getID(); //unique player ID
-                });
-                }
-                }
-                );
+                //get player information
+                var playerName = FBInstant.player.getName(); //name of account using game
+                var playerId = FBInstant.player.getID(); //unique player ID
+            });
+    }
+});
