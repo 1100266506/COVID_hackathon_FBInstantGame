@@ -37,3 +37,7 @@ July 19, 2020
 - added css and spacing for Results page
 - results page has option to go to Additonal Resources page
 - styled buttons
+
+July 23, 2020
+- remove elipses from questions
+- adjusted spacing and format of questions
