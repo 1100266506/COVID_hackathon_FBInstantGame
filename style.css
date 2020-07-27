@@ -1,12 +1,12 @@
 /*generics*/
 body {
     background-color : #EAAA00;
-    height : auto;
+    height : 100%;
     width : auto;
     margin-bottom : 5%;
 }
 .subheader {
-    font-size: 200%;
+    font-size: 2vw;
     color : #000000;
     text-align: center;
     margin : 0;
@@ -15,12 +15,12 @@ body {
 /*home page*/
 #title {
     color : #000000;
-    font-size : 600%;
+    font-size : 5vw;
     text-align : center;
 }
 #title2 {
     color : #800020;
-    font-size : 300%;
+    font-size : 2vw;
     text-align : center;
     margin : 0;
 }
@@ -44,14 +44,14 @@ body {
     color : white;
     background-color: black;
     text-align: center;
-    font-size: 150%;
+    font-size: 1vw;
     display: inline-block;
 }
 #aboutButton {
     border : none;
     background : none;
     padding : 0;
-    font-size : 250%;
+    font-size : 2vw;
     width : 40%;
     height : 10%;
     text-align : center;
@@ -70,7 +70,7 @@ body {
     border-right-width : 0;
     background : none;
     padding : 0;
-    font-size : 250%;
+    font-size : 2vw;
     width : 40%;
     height : 10%;
     text-align : center;
@@ -85,6 +85,7 @@ body {
 #homeRight {
     float : left;
     width : 50%;
+    height : 90%;
     text-align: center;
 }
 #rulesHolder {
@@ -92,19 +93,19 @@ body {
 }
 #startButtonHolder {
     display : inline-block;
+    padding : 1%;
 }
 #startButton {
     background-color: red;
-    font-size: 250%;
+    font-size: 2vw;
     width : 100%;
-    height : 100%;
+    height : 100%;taylor swift folklore album
     text-align: center;
     color : #000000;
     border : none;
-    padding : 0;
 }
 #rules {
-    font-size: 150%;
+    font-size: 1.5vw;
     color : white;
     background-color: black;
     width : 50%;
@@ -117,11 +118,12 @@ body {
     color : black;
 }
 #termsconditionstext, #abouttext {
-    font-size : 150%;
+    font-size : 1.5vw;
     color : black;
     margin-left : 10%;
     margin-right : 10%;
 }
+
 /******************************************RESOURCES PAGE */
 #gamesresourcesPage {
     text-align: center;
@@ -160,10 +162,9 @@ footer {
 }
 
 .quizButton {
-    font-size : 1.5vw;
     background : none;
     padding : 0;
-    font-size : 250%;
+    font-size : 2.5vw;
     width : auto;
     height : 10%;
     text-align : center;
@@ -184,7 +185,7 @@ footer {
     left : 25%;
 }
 #questionNoteText {
-    font-size : 200%;
+    font-size : 2vw;
     text-align : left;
     color : black;
     font-weight : bold;
@@ -212,15 +213,17 @@ footer {
 }
 #statedropdown {
     margin-bottom : 3%;
+    margin-left : 3%;
+    height : 200%;
 }
 #pageCounterHolder {
     font-weight: bold;
-    font-size: 200%;
+    font-size: 2vw;
 }
 #games {
     background : none;
     padding : 0;
-    font-size : 250%;
+    font-size : 2.5vw;
     width : auto;
     height : 10%;
     text-align : center;
@@ -236,7 +239,7 @@ footer {
 #home {
     background : none;
     padding : 0;
-    font-size : 250%;
+    font-size : 2.5vw;
     width : auto;
     height : 10%;
     text-align : center;
@@ -282,7 +285,7 @@ footer {
 }
 #gamesResult {
     background-color: red;
-    font-size: 250%;
+    font-size: 2.5vw;
     height : 100%;
     text-align: center;
     color : #000000;
@@ -296,26 +299,36 @@ footer {
 }
 #people {
     color : black;
-    font-size: 200%;
+    font-size: 2vw;
     text-align : center;
     margin-top : 5%;
 }
 .person {
+    width : 25%;
     float : left;
-    width : 20%;
-}
-.person:hover {
-    background-color : white;
 }
 .personName {
-    text-align : center;
-    font-size: 100%;
+    font-size: 1vw;
 }
 .personDetails {
     font-size : 50%;
 }
-#gameHistory {
-    margin-top : 15%;
-    text-align : center;
-    font-size : 150%;
+.headshot {
+    width : 100%;
 }
+/*#Benjamin {
+    grid-column-start : 1;
+    grid-row-start: 1;
+}
+#Leona {
+    grid-column-start : 2;
+    grid-row-start: 1;
+}
+#Ian {
+    grid-column-start : 4;
+    grid-row-start : 1;
+}
+#Melody {
+    grid-column-start : 3;
+    grid-row-start : 1;
+}*/
