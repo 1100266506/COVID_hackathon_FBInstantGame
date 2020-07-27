@@ -19,7 +19,7 @@ function createQuestion(questionArray, questionPage, questionNumber) {
             questionOutput.push(
                 `<div class = "question"> ${questionNumber + 1}: ${currentQuestion.question} </div>
                     <select id ='statedropdown'>
-                        <option value="-1">SELECT</option>
+                        <option value="-1">SELECT - 00</option>
                         <option value="0">Alabama - AL</option>
                         <option value="1">Alaska - AK</option>
                         <option value="2">Arizona - AZ</option>
