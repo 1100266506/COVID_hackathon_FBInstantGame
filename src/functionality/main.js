@@ -3,6 +3,7 @@
 //******************************************************************************GET HTML ELEMENTS AND SET KEY VALUES
 //pages
 const homePageContainer = document.getElementById('homePage');
+const disclaimerPageContainer = document.getElementById('disclaimerPage');
 const aboutPageContainer = document.getElementById('aboutPage');
 const quizPageContainer = document.getElementById('quizPage');
 const quizContainer = document.getElementById('quizHolder');
@@ -41,6 +42,7 @@ function addElmt(elmt) {
 
 function buildBlank() {
     removeElmt(homePageContainer);
+    removeElmt(disclaimerPageContainer);
     removeElmt(aboutPageContainer);
     removeElmt(quizPageContainer);
     removeElmt(pageCounterContainer);
@@ -58,7 +60,7 @@ function buildBlank() {
 //******************************************************************************CREATE A USER
 //holds user answers. Length should equal number of questions plus 1
 userAnswerArray =   [
-                    playerID,  //unique user ID
+                    //playerID,  //unique user ID
                     null, //age
                     null, //gender
                     null, //state of residence

@@ -1,16 +1,6 @@
-//hide results by default
-removeElmt(document.getElementById('2'));
-removeElmt(document.getElementById('3'));
-removeElmt(document.getElementById('4'));
-removeElmt(document.getElementById('5'));
-removeElmt(document.getElementById('6'));
-removeElmt(document.getElementById('7'));
-removeElmt(document.getElementById('8'));
-removeElmt(document.getElementById('9'));
-removeElmt(document.getElementById('10'));
-
 function buildResultsPage() {
-    buildBlank()
+    buildBlank();
+
     addElmt(resultsPageContainer);
 
     addElmt(buttonContainer);

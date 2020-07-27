@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Mental Wealth</title>
 
         <!-- for database -->
@@ -33,38 +34,48 @@
                     <img src="./src/functionality/imageHome.png" alt="img" id='homeImage'></img>
                 </div>
 
-                <div id = "disclaimerHolder">
-                    <p id = 'disclaimer'> <b>Disclaimer:</b> <br> This quiz
-                        is for entertainment purposes only and the information provided will be used
-                        for public health research. If you select to take the “Mental Wealth Quiz”
-                        you agree to all terms and conditions of this game.</p>
-                </div>
-
                 <div id = 'aboutButtonHolder'>
                     <button id = "aboutButton">About the project</button>
                 </div>
+                <hr id="homeLine">
                 <div id = 'creditsButtonHolder'>
                     <button id = "creditsButton">Credits</button>
                 </div>
             </div>
 
             <div id="homeRight">
-                <div id = "rulesHolder">
-                    <p id ='rules'>
-                        <b>GAME RULES:</b> What is your mental
-                        wealth?  Want to get some
-                        insight on your mental health status then take the Mental Wealth
-                        Quiz. This quiz will give you a list of mental health areas you may
-                        need improvement in, as well as, a suggested list of mental health
-                        games, applications (apps), or resources to assist you on your
-                        journey.  In order to gain true insight, we ask that you answer the
-                        questions as honestly as possible.
-                    </p>
-                </div>
                 <div id = 'startButtonHolder'>
                     <button id = "startButton">Begin Game</button>
                 </div>
             </div>
+        </section>
+
+        <section id="disclaimerPage">
+            <div id = "disclaimerHolder">
+                <p id = 'disclaimer'> <b>Disclaimer:</b> <br> This quiz
+                    is for entertainment purposes only and the information provided will be used
+                    for public health research. If you select to take the “Mental Wealth Quiz”
+                    you agree to all terms and conditions of this game.
+                </p>
+            </div>
+
+            <div id = "rulesHolder">
+                <p id ='rules'>
+                    <b>GAME RULES:</b> What is your mental
+                    wealth?  Want to get some
+                    insight on your mental health status then take the Mental Wealth
+                    Quiz. This quiz will give you a list of mental health areas you may
+                    need improvement in, as well as, a suggested list of mental health
+                    games, applications (apps), or resources to assist you on your
+                    journey.  In order to gain true insight, we ask that you answer the
+                    questions as honestly as possible.
+                </p>
+            </div>
+
+            <div id = 'startButtonHolderGame'>
+                <button id = "startButtonGame">Begin Game</button>
+            </div>
+
         </section>
 
         <section id = 'aboutPage'>
@@ -377,20 +388,45 @@
             <div class="subheader">
                 Credits
             </div>
+            <div id="creditsDetail">
+                Developed May 2020, Georgia Tech-Emory COVID-19 Hackathon
+            </div>
             <div id="people">
-                <div class="person">
-                    <img src="#" alt="no image">
+                <div class="person" id = "Benjamin">
+                    <img class="headshot" src="./src/PICTURES/Headshot GT Updated.jpg" alt="no image">
                     <div class="personName">
                         Benjamin Ahn
                     </div>
                     <div class="personDetails">
-                        Programmer <br>
+                        Lead Programmer, Front-end Development <br>
                         Biological Sciences <br>
                         Georgia Tech
                     </div>
                 </div>
-                <div class="person">
-                    <img src="#" alt="no image">
+                <div class="person" id="Leona">
+                    <img class="headshot" src="#" alt="no image">
+                    <div class="personName">
+                        Leona Wells
+                    </div>
+                    <div class="personDetails">
+                        Game Creator, Mental Health Researcher <br>
+                        Public Health <br>
+                        Emory University
+                    </div>
+                </div>
+                <div class="person" id="Melody">
+                    <img class="headshot" src="./src/PICTURES/DSC_1103.jpg" alt="no image">
+                    <div class="personName">
+                        Melody Shellman
+                    </div>
+                    <div class="personDetails">
+                        Back-end Programmer <br>
+                        Industrial Engineering <br>
+                        Georgia Tech
+                    </div>
+                </div>
+                <div class="person" id="Ian">
+                    <img class= "headshot" src="./src/PICTURES/Ian Professional.jpg" alt="no image">
                     <div class="personName">
                         Ian Binek
                     </div>
@@ -400,69 +436,20 @@
                         Georgia Tech
                     </div>
                 </div>
-                <div class="person">
-                    <img src="#" alt="no image">
-                    <div class="personName">
-                        Melody Shellman
-                    </div>
-                    <div class="personDetails">
-                        Programmer <br>
-                        Industrial Engineering <br>
-                        Georgia Tech
-                    </div>
-                </div>
-                <div class="person">
-                    <img src="#" alt="no image">
-                    <div class="personName">
-                        Leona Wells
-                    </div>
-                    <div class="personDetails">
-                        BLANK <br>
-                        Public Health <br>
-                        Emory University
-                    </div>
-                </div>
-                <div class="person">
-                    <img src="#" alt="no image">
-                    <div class="personName">
-                        Bridget
-                    </div>
-                    <div class="personDetails">
-                        BLANK <br>
-                        Public Health <br>
-                        Emory University
-                    </div>
-                </div>
-            </div>
-            <div id="gameHistory">
-                <div>
-                    Game created May 2020 <br>
-                    COVID-19 Hackathon
-                </div>
             </div>
         </section>
 
 
 
-        <!-- # Update 1 - Reorder the firebase script imports (I accidentally put them out of order) Should be: -->
-        <!-- # index.html file -->
-        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
-        <!-- # the init needs to be last! -->
-        <script src="./src/firebase_scripts/init-firebase.js"></script>
-
+        
+      
         <!-- use Facebook Instant Game SDK -->
         <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
-
-        <!-- implement firebase -->
-        <script src = './src/functionality/facebookCore.js'></script>
-        <script src = './src/firebase_scripts/firebase_addon.js'></script>
 
         <!-- implement game functionality -->
         <script src = './src/functionality/main.js'></script>
         <script src = './src/functionality/homePage.js'></script>
+        <script src = './src/functionality/disclaimerPage.js'></script>
         <script src = './src/functionality/aboutPage.js'></script>
         <script src = './src/functionality/questions.js'></script>
         <script src = './src/functionality/questionsPage.js'></script>

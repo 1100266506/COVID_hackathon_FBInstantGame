@@ -11,7 +11,7 @@ function buildWelcomePage() {
     aboutButton.onclick = function() {buildAboutPage()};
 
     const startButton = document.getElementById('startButton');
-    startButton.onclick = function() {buildFirstQuestions(myQuestions, questionPage)};
+    startButton.onclick = function() {buildDisclaimerPage()};
 
     const creditsButton = document.getElementById('creditsButton');
     creditsButton.onclick = function() {buildCreditsPage()};
