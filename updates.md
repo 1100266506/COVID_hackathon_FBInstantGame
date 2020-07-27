@@ -41,3 +41,11 @@ July 19, 2020
 July 23, 2020
 - remove elipses from questions
 - adjusted spacing and format of questions
+
+July 27, 2020
+- new color scheme
+- temporarily removed firebase because cannot function with Facebook Instant Game
+- responsive size for desktop
+- mobile version css created 
+- added photos for credits page
+- created disclaimer page (between home screen and demographic questions)
