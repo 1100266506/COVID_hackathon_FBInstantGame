@@ -17,6 +17,7 @@
     /*home page*/
     #homePage {
         height : 100%;
+        width : 100%;
     }
     #title {
         font-size : 5vw;
@@ -29,8 +30,7 @@
     }
 
     #homeLeft {
-        float : left;
-        width : 50%;
+        width : 100%;
         text-align: center;
     }
     #imageHomeHolder {
@@ -38,8 +38,8 @@
         display: inline-block;
     }
     #homeImage {
-        height : 40%;
-        width : 40%;
+        height : 20%;
+        width : 20%;
     }
     #aboutButton {
         border : none;
@@ -47,7 +47,6 @@
         padding : 0;
         font-size : 2vw;
         width : 40%;
-        height : 10%;
         text-align : center;
         display : inline-block;
         color : #3065ac;
@@ -81,10 +80,8 @@
         background-color : #3065ac;
     }
     #homeRight {
-        float : left;
-        width : 50%;
-        height : 90%;
-        text-align: center;
+        width : 20%;
+        margin-left : 80%;
     }
     #startButtonHolder {
         display : inline-block;
@@ -93,12 +90,7 @@
         border : none;
         background: none;
         background-color : #3065ac;
-        font-size: 3.5vw;
-        margin-top : 50%;
-        margin-bottom : 50%;
-        margin-left : 0%;
-        margin-right : 0%;
-        width : 100%;
+        font-size: 2vw;
         color : white;
     }
 
@@ -341,6 +333,9 @@
     }
     .headshot {
         width : 100%;
+    }
+    #leonaheadshot {
+        /*transform: rotate(90deg);*/
     }
     /*#Benjamin {
         grid-column-start : 1;
