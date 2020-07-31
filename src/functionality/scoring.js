@@ -5,6 +5,16 @@ function scoring(userAnswerArray, questionNumber) {
     //finish updating array for current questions
     storeAnswer(userAnswerArray, questionNumber);
 
+    //reset diagnosis array
+    diagnosisArray[0] = null;
+    diagnosisArray[1] = null;
+    diagnosisArray[2] = null;
+    diagnosisArray[3] = null;
+    diagnosisArray[4] = null;
+    diagnosisArray[5] = null;
+    diagnosisArray[6] = null;
+    diagnosisArray[7] = null;
+
     // update the dict for each diagnosis
     //if they score greater than 2, then they will be diagnosed
     //scoring for suicideal ideation
@@ -13,7 +23,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         else if (userAnswerArray[i] > "a") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[0] = true;
         }
     }
 
@@ -23,7 +33,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         if (userAnswerArray[i] > "a") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[1] = true;
             
         }
     }
@@ -34,7 +44,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         if (userAnswerArray[i] > "b") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[2] = true;
             
         }
     }
@@ -44,19 +54,19 @@ function scoring(userAnswerArray, questionNumber) {
         if (userAnswerArray[i] == null) {
             continue;
         }
-        if (userAnswerArray[i] > "b") {
-            diagnosisArray[i - 5] = true;
+        if (userAnswerArra[yi] > "b") {
+            diagnosisArray[3] = true;
             
         }
     }
 
-    //scoring for mani
+    //scoring for mania
     for (var i = 11; i < 13; i++) {
         if (userAnswerArray[i] == null) {
             continue;
         }
         if (userAnswerArray[i] > "b") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[4] = true;
             
         }
     }
@@ -67,7 +77,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         if (userAnswerArray[i] > "b") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[5] = true;
             
         } 
     }
@@ -78,7 +88,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         if (userAnswerArray[i] > "b") {
-            diagnosisAj++;rray[i - 5] = true;
+            diagnosisArray[6] = true;
         }
     }
 
@@ -88,7 +98,7 @@ function scoring(userAnswerArray, questionNumber) {
             continue;
         }
         if (userAnswerArray[i] > "b") {
-            diagnosisArray[i - 5] = true;
+            diagnosisArray[7] = true;
                     }
     }
     
@@ -104,7 +114,8 @@ function scoring(userAnswerArray, questionNumber) {
             critical = true;
         }
     }
-    console.log(j);
+    console.log("diagnosis array");
+    console.log(diagnosisArray);
 
 //******************************************************************************GIVE DIAGNOSIS RESULTS
 
@@ -113,7 +124,7 @@ function scoring(userAnswerArray, questionNumber) {
     for (var i = 0; i < diagnosisArray.length; i++) {
         var n = i + 2;
         removeElmt(document.getElementById(n.toString()));
-        if (diagnosisArray[n] == true) {
+        if (diagnosisArray[i] == true) {
             addElmt(document.getElementById(n.toString()));
             nothing_wrong = false;
         }
