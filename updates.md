@@ -49,3 +49,8 @@ July 27, 2020
 - mobile version css created 
 - added photos for credits page
 - created disclaimer page (between home screen and demographic questions)
+
+July 30, 2020
+- updated splash screen, moving buttons
+- added images for credits, part 2
+- fixed scoring bug, by creating a null diagnosisArray such that the quiz gives new results each time the quiz is taken
